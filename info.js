@@ -1,7 +1,7 @@
 let info = {
   name: "LECELLIER Clément",
   logo_name: "Clément LECELLIER",
-  flat_picture: require("./src/assets/potrait.jpg"),
+  flat_picture: require("./src/assets/photo.jpg"),
   config: {
     use_cookies: true,
     navbar: {
@@ -11,9 +11,9 @@ let info = {
   description:
     "Je suis actuellement en deuxième année d'un BTS SIO. Curieux, motivé et passionné de développment, j'aime apprendre, développer et découvrir de nouveaux environnements !",
   links: {
-    linkedin: "https://www.linkedin.com/in/malcom-morel-5a99a31b7/",
-    github: "https://github.com/Malcomle",
-    resume: require("./src/assets/CVdev.png"),
+    linkedin: "https://www.linkedin.com/in/cl%C3%A9ment-lecellier-4a87791b9/",
+    github: "https://github.com/Ruunex1",
+    resume: require("./src/assets/CV.png"),
   },
   education: [
     {
@@ -58,7 +58,7 @@ let info = {
   experience: [
 
     {
-      name: "Grumpy Guy",
+      name: "Archi-med",
       place: "Angers",
       date: "Février 2022 - Avril 2022",
       position: "Web Developer",
@@ -66,16 +66,16 @@ let info = {
           "Stage de 7 semaines dans lequel j'ai conçu une application mobile ayant pour objectif d’optimiser le processus de signalement à la police, le plus rapidement et avec le moins de clic possible.",
 
       skills: [
-        "Flutter",
-        "Dart",
-        "Vue",
+        "Symfony",
+        "Bootstrap",
         "JS",
+        "MySQL",
       ]
     },
     {
-      name: "MeilleurTaux",
-      place: "Angers",
-      date: "Mai 2021 - Août 2021",
+      name: "Laurans-Peinture",
+      place: "Tours",
+      date: "Mai 2021 - Juin 2021",
       position: "Web Developer",
       description:
         "Stage de 6 semaines dans lequel j'ai du concevoir une API permettant l'automatisation de création d'un utilisateur dans un Active Directory. Authentification windows, gestion de tokens, de permissions et de rôles. Le backend est développé en .net core tandis que le frontend est codé en Angular.",
@@ -94,16 +94,15 @@ let info = {
       title: "Langages",
       info: [
         "Javascript",
-        "Php",
-        "Dart",
+        "PHP",
+        "Python",
         "C#",
-
       ],
       icon: "fa fa-code"
     },
     {
       title: "Frameworks",
-      info: ["Flutter", "Vue.js", "Laravel", "Angular.js", ".Net", "SpringBoot", "HTML", "CSS"],
+      info: ["Vue.js", "Laravel", "Symfony", "HTML", "CSS"],
       icon: "fas fa-laptop-code"
     },
     {
@@ -113,7 +112,7 @@ let info = {
     },
     {
       title: "Base de données",
-      info: ["MongoDB", "MySQL", "SQL Server", "Firebase"],
+      info: ["MongoDB", "MySQL"],
       icon: "fa fa-database"
     },
     {
@@ -123,17 +122,17 @@ let info = {
     },
     {
       title: "Server",
-      info: ["Debian", "Ubuntu", "Netlify", "Firebase"],
+      info: ["Debian", "Netlify"],
       icon: "fa fa-server"
     },
     {
       title: "Gestion de projet - AGILE",
-      info: ["YouTrack", "Trello", "Notion"],
+      info: ["Trello", "Notion"],
       icon: "fa fa-check-square"
     },
     {
       title: "Maquette",
-      info: ["Figma", "AdobeXD"],
+      info: ["AdobeXD"],
       icon: "fa fa-file"
     },
     {

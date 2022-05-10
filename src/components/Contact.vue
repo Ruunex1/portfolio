@@ -113,7 +113,7 @@
 </template>
 
 <script>
-import config from "../../config";
+//import config from "../../config";
 import emailjs from "emailjs-com";
 
 import Snackbar from "./helpers/Snackbar";
@@ -161,10 +161,10 @@ export default {
 
         emailjs
           .send(
-            config.emailjs.serviceID,
-            config.emailjs.templateID,
+            emailjs.serviceID,
+            emailjs.templateID,
             obj,
-            config.emailjs.userID
+            emailjs.userID
           )
           .then(
             (result) => {

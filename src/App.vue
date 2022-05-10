@@ -50,7 +50,7 @@ export default {
     }
   },
   mounted() {
-    ["À propos de moi.", "Contact", "Compétences", "Mes projets"].forEach((l) => {
+    ["À propos de moi", "Contact", "Compétences", "Mes projets"].forEach((l) => {
       if (window.location.href.includes(l)) {
         var elementPosition = document.getElementById(l).offsetTop;
         window.scrollTo({ top: elementPosition - 35, behavior: "smooth" });
