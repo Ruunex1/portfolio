@@ -63,8 +63,7 @@ let info = {
       date: "Février 2022 - Avril 2022",
       position: "Web Developer",
       description:
-          "Stage de 7 semaines dans lequel j'ai conçu une application mobile ayant pour objectif d’optimiser le processus de signalement à la police, le plus rapidement et avec le moins de clic possible.",
-
+          "Stage de 7 semaines dans lequel j'ai améliorer une plateforme de relation Client/Consultant pour un CFA. Mise en place d'un calendrier, création d'un espace personnel, envoie d'e-mail, réalisation de tests de personnalités. ",
       skills: [
         "Symfony",
         "Bootstrap",
@@ -78,13 +77,11 @@ let info = {
       date: "Mai 2021 - Juin 2021",
       position: "Web Developer",
       description:
-        "Stage de 6 semaines dans lequel j'ai du concevoir une API permettant l'automatisation de création d'un utilisateur dans un Active Directory. Authentification windows, gestion de tokens, de permissions et de rôles. Le backend est développé en .net core tandis que le frontend est codé en Angular.",
+        "Stage de 6 semaines dans lequel j'ai du concevoir un site vitrine en Wordpress pour un artisan peintre de Tours. J'ai réaliser les fonctionnalités suivantes : Affichage des avis Google, Référencement SEO, Cybersecurité, l'esthétique du site, hébergement sur Ionos.",
         skills: [
-          "Angular",
-          ".Net",
-          "C#",
-          "JS",
-          "Active Directory",
+          "Wordpress",
+          "Ionos",
+          "MySQL",
         ]
     },
 
@@ -143,7 +140,7 @@ let info = {
   ],
   portfolio: [
     {
-      name: "AskHim",
+      name: "Eurêka",
       pictures: [
         {
           img: require("./src/assets/portfolio/askhim/askhim.png")
@@ -156,26 +153,28 @@ let info = {
         },
 
       ],
-      technologies: ["Vue.js", "Javascript", "SpringBoot"],
+      technologies: ["Symfony"],
       github: "https://github.com/AskHim-SIO/AskHimWebApp",
       visit: "https://askhim.ctrempe.fr/",
+      date: "Fev 2022 - Avril 2022",
       description:
-        "Besoin d'aide ? Ask him ! Proposez ou resolvez des services !"
+        "Amélioration d'une plateforme en Symfony pour un CFA."
     },
 
     {
-      name: "Des bruits dans la rue",
+      name: "Laurans Peinture",
       pictures: [
         {
           img: require("./src/assets/portfolio/desbruitsdanslarue/home.jpg")
         },
 
       ],
-      technologies: ["Flutter", "Vue.js"],
-      category: "Application de gestion",
+      technologies: ["Wordpress"],
+      category: "Site Vitrine",
+      visit: "https://www.laurans-peinture.fr/",
       date: "Fev, 2022 - Avril, 2022",
       description:
-          "Réalisation d’applications ayant pour objectif d’optimiser le processus de signalement à la police, le plus rapidement et avec le moins de clic possible. Un utilisateur effectue un signalement d’un problème typé. Ce problème est remonté et précisé à l’aide de captation audio ou vidéo. Sur une seconde application destinée à la police, sur une tablette sont affichés les différents problèmes remontés."
+          "Site en Wordpress pour un artisan peintre."
     },
 
     {
