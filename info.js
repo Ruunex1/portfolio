@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "Je suis actuellement en deuxième année d'un BTS SIO. Curieux, motivé et passionné de développment, j'aime apprendre, développer et découvrir de nouveaux environnements !",
+    "Allo bonjour Je suis actuellement en deuxième année d'un BTS SIO. Curieux, motivé et passionné de développment, j'aime apprendre, développer et découvrir de nouveaux environnements !",
   links: {
     linkedin: "https://www.linkedin.com/in/cl%C3%A9ment-lecellier-4a87791b9/",
     github: "https://github.com/Ruunex1",
