@@ -60,7 +60,7 @@
                 >Mes projets</a
               >
             </li>
-            <li class="nav-item mx-2">
+            <!-- <li class="nav-item mx-2">
               <a
                 class="nav-link"
                 href="/contact"
@@ -68,7 +68,7 @@
                 :class="{ 'text-light': nightMode }"
                 >Contact</a
               >
-            </li>
+            </li> -->
             <li class="nav-item ml-2">
               <a
                 class="nav-link"
