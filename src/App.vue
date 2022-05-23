@@ -34,7 +34,7 @@ export default {
     Skills,
     Portfolio,
     Recommendation,
-    Contact,
+    //Contact,
     Footer,
   },
   data() {

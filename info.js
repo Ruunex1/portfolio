@@ -9,7 +9,7 @@ let info = {
     }
   },
   description:
-    "Allo bonjour Je suis actuellement en deuxième année d'un BTS SIO. Curieux, motivé et passionné de développment, j'aime apprendre, développer et découvrir de nouveaux environnements !",
+    "Je suis actuellement en deuxième année d'un BTS SIO. Curieux, motivé et passionné de développement, j'aime apprendre, développer et découvrir de nouveaux environnements !",
   links: {
     linkedin: "https://www.linkedin.com/in/cl%C3%A9ment-lecellier-4a87791b9/",
     github: "https://github.com/Ruunex1",
@@ -51,7 +51,7 @@ let info = {
       date: "2014 - 2017",
       degree: "Baccalauréat S option SVT",
       description:
-          "Obtention d'un baccalauréat S option SVT. ",
+          "Obtention d'un baccalauréat S option SVT.",
     },
 
   ],
@@ -63,12 +63,13 @@ let info = {
       date: "Février 2022 - Avril 2022",
       position: "Web Developer",
       description:
-          "Stage de 7 semaines dans lequel j'ai améliorer une plateforme de relation Client/Consultant pour un CFA. Mise en place d'un calendrier, création d'un espace personnel, envoie d'e-mail, réalisation de tests de personnalités. ",
+          "Stage de 7 semaines dans lequel j'ai amélioré une plateforme de relation Client/Consultant pour un CFA. Mise en place d'un calendrier, création d'un espace personnel, envoie d'e-mail, réalisation de tests de personnalités. ",
       skills: [
         "Symfony",
         "Bootstrap",
         "JS",
         "MySQL",
+        "OVH",
       ]
     },
     {
@@ -77,7 +78,7 @@ let info = {
       date: "Mai 2021 - Juin 2021",
       position: "Web Developer",
       description:
-        "Stage de 6 semaines dans lequel j'ai du concevoir un site vitrine en Wordpress pour un artisan peintre de Tours. J'ai réaliser les fonctionnalités suivantes : Affichage des avis Google, Référencement SEO, Cybersecurité, l'esthétique du site, hébergement sur Ionos.",
+        "Stage de 6 semaines dans lequel j'ai dû concevoir un site vitrine en Wordpress pour un artisan peintre de Tours. J'ai réalisé les fonctionnalités suivantes : Affichage des avis Google, Référencement SEO, Cybersécurité, l'esthétique du site, hébergement sur Ionos.",
         skills: [
           "Wordpress",
           "Ionos",
@@ -143,29 +144,22 @@ let info = {
       name: "Eurêka",
       pictures: [
         {
-          img: require("./src/assets/portfolio/askhim/askhim.png")
-        },
-        {
-          img: require("./src/assets/portfolio/askhim/detail.png")
-        },
-        {
-          img: require("./src/assets/portfolio/askhim/chat.png")
+          img: require("./src/assets/logo_archimed.png")
         },
 
       ],
       technologies: ["Symfony"],
-      github: "https://github.com/AskHim-SIO/AskHimWebApp",
-      visit: "https://askhim.ctrempe.fr/",
+      category: "Application de tests de compétences pour des clients",
       date: "Fev 2022 - Avril 2022",
       description:
-        "Amélioration d'une plateforme en Symfony pour un CFA."
+        "Amélioration d'une plateforme en Symfony pour un CFA. J'ai réalisé cette mission durant un stage de 7 semaines pendant mon BTS. Avec une mise en place d'un calendrier, création d'un espace personnel, envoie d'e-mail, réalisation de tests de personnalités. "
     },
 
     {
       name: "Laurans Peinture",
       pictures: [
         {
-          img: require("./src/assets/portfolio/desbruitsdanslarue/home.jpg")
+          img: require("./src/assets/laurans_accueil.png")
         },
 
       ],
@@ -174,20 +168,7 @@ let info = {
       visit: "https://www.laurans-peinture.fr/",
       date: "Fev, 2022 - Avril, 2022",
       description:
-          "Site en Wordpress pour un artisan peintre."
-    },
-
-    {
-      name: "Formulaire d'entrée dans l'entreprise",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/meilleurtaux/illustration.jpg")
-        },
-
-      ],
-      technologies: ["Angular.js", ".Net"],
-      description:
-          "Automatiser l'arrivée de nouveaux employées dans l'entreprise. Générer une adresse email, une session, les ajouters dans différentes base de données etc."
+          "Site en Wordpress pour un artisan peintre pour lui apporter une meilleure visibilité en ligne. J'ai réalisé cette mission durant un stage de 6 semaines pendant mon BTS."
     },
 
     {
@@ -199,13 +180,12 @@ let info = {
 
       ],
       technologies: ["C#", ".net"],
-      category: "Application de gestion",
+      category: "Application Back-end de gestion",
       github: "https://github.com/Malcomle/Formaflix_backend",
       date: "Sept, 2021 - Nov, 2021",
       description:
-        "Développement d'une application de gestion d'un site web avec WindowsForm. L'application permet de gerer et d'ajouter des formations, de moderer des commentaires par formations. "
-    },
-
+        "Développement d'une application d'administration d'un site web avec Windows Forms. L'application permet de gérer et d'ajouter des formations, de modérer des commentaires et des utilisateurs. L'application possède également un système de rôles."
+    }
   ],
    recommendations: [
     {
