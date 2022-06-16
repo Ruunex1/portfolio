@@ -17,6 +17,14 @@ let info = {
   },
   education: [
     {
+      name: "Ecole Polytechnique de l'Université de Nantes",
+      place: "Nantes",
+      date: "2022 - 2025",
+      degree: "Spécialité IDIA en apprentissage",
+      description:
+          "IDIA (Ingénierie des données et de l’intelligence artificielle). Admis en liste principale en recherche d'un apprentissage pour confirmer mon admission",
+    },
+    {
       name: "Lycée Chevrollier",
       place: "Angers",
       date: "2020 - 2022",
